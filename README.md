@@ -157,13 +157,13 @@ Glucose, BMI, age and family history are well-known risk factors for type 2 diab
 
 ```mermaid
 flowchart LR
-    A[Raw CSV<br>768 patients] --> B[Zeros → NaN<br>median imputation]
-    B --> C[Stratified split<br>80% / 20%]
-    C --> D[StandardScaler<br>fit on train only]
-    D --> E[Train 4 models]
-    E --> F[Compare on<br>5 metrics]
-    F --> G[XGBoost<br>saved with joblib]
-    G --> H[Streamlit app]
+    A["Raw CSV<br/>768 patients"] --> B["Zeros to NaN<br/>median imputation"]
+    B --> C["Stratified split<br/>80 / 20"]
+    C --> D["StandardScaler<br/>fit on train only"]
+    D --> E["Train 4 models"]
+    E --> F["Compare on<br/>5 metrics"]
+    F --> G["XGBoost<br/>saved with joblib"]
+    G --> H["Streamlit app"]
 ```
 
 ---
