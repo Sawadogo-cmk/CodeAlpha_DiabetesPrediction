@@ -30,3 +30,6 @@ desktop.ini
 # Agent tooling
 .agents/
 .claude/
+# Local demo material (not part of the project)
+video/
+profils_demo_video.pdf
